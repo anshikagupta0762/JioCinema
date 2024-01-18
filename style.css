@@ -1,0 +1,117 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;   
+    color: white;
+    background-color: #0c0c13;
+}
+.navbar{
+    background-color: #0c0c13;
+    height: 80px;
+    width: 100%;
+    display: flex;
+}
+.nav-left{
+    width: 50%;
+    color: white;
+    padding-top: 8px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.jioimage {
+    height: 40px;
+    width: 40px;
+}
+.nav-left button{
+    border-radius: 100px;
+    background-color: #0c0c13;
+}
+.btn1{
+    padding: 10px 25px ;
+    border: 2px solid goldenrod;
+    color: goldenrod;
+}
+.btn2{
+    border : 2px solid white;
+    color: white;
+    padding: 15px 10px;
+}
+.nav-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 30px ;
+}
+#search{
+    border-radius: 100px;
+    background-color: #0c0c13;
+    border: 2px solid grey;
+    opacity: 0.7rem;
+    padding: 10px 20px;
+    margin-right: 10px ;
+    color: white;
+}
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 70px 0 100px 0;
+}
+.main2 img{
+    height: 500px;
+    width: 900px;
+}
+.live-btn{
+    background-color :  #000;
+    border: 1px solid #000;
+    padding: 5px 10px;
+}
+.watch-btn{
+    background-color: #d83c95;
+    border: 2px solid #d83c95;
+    border-radius: 8px;
+    padding: 10px 25px;
+}
+.main1 h1, .live-btn , .watch-btn{
+    margin: 0 0 12px 30px;
+    position: relative;
+    top: 100px;
+}
+.main-content{
+    padding: 25px 0 25px 0;
+    display: flex;
+    flex: wrap;
+}
+.big-card{
+    margin: 0 0 0 20px ;
+}
+.big{
+    height: 23rem;
+    width: 45%;
+    border-radius: 25px;
+    transition: all 0.5s 0s;
+}
+.big:hover{
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+.big1{
+    margin-right: 15px;
+}
+.heading{
+    padding-left: 20px;
+}
+.smaller{
+    display: flex;
+}
+.small{
+    width: 220px;
+    border-radius: 2.5rem;
+    padding: 0.6rem 1rem 1rem 1rem;
+}
